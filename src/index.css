@@ -1,0 +1,205 @@
+
+@import"../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.myimg{
+     background-position: center;
+    background-size: cover;
+}
+
+.margin{
+    margin-right: 1rem;
+}
+
+.top{
+    margin-bottom: 10rem;
+}
+.brown{
+    color: rgba(255, 255, 0, 0.365);
+}
+
+/* .img{
+    /* background-image: url('./IMG-20211009-WA0001-scale-2.jpg'); 
+} */
+
+.mt{
+    margin-top: 11rem;
+}
+
+.img-fluid{
+    height: 50vh;
+    width: 100vh;
+}
+
+.mycard{
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.mycard img{
+    height: 15vh;
+    width: 30vh;
+}
+
+.left{
+    margin-left: 12rem;
+    font-size: 22px;
+}
+
+.pp{
+height: 80px;
+width: 25%;
+margin: -95px 0;
+background: linear-gradient(to right,#ffff 0%,#ff3399 100%);
+border: none;
+border-radius: 50px;
+transition: .5s ease-in-out;
+}
+
+.two:hover ~ pp{
+    margin-left: 25%;
+}
+.fs{
+    font-size: 30px;
+}
+.line{
+text-decoration: none;
+}
+
+p:hover, h1:hover, a:hover,i:hover {
+    background-color:rgba(0, 0, 0, 0.178);
+  }
+
+.hover:hover{
+    background-color: white;
+}
+
+/*
+changes by ankita
+*/
+
+
+.panel h1{
+    margin-left: 5rem;
+}
+.pcc h2{
+    margin-left: 5rem;
+}
+
+.pcc1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+/* .pcc1 p{
+    margin-right: 20rem;
+} */
+
+.mcc1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+.mcc h2{
+    margin-left: 5rem;
+}
+
+.plc h2{
+    margin-left: 5rem;
+}
+
+.plc1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.APFC h2{
+    margin-left: 5rem;
+}
+
+.APFC1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+
+.product:hover{
+background-color: rgba(0, 0, 0, 0.176);
+}
+
+.myimg2{
+    height: 70%;
+    width: 50%;
+    margin-left: 18rem;
+    margin-top: 2rem;
+}
+
+.margin1{
+    margin-left: 1rem;
+}
+.card1{
+  margin-right: 20rem;
+}
+
+.btn1{
+    height: 50px;
+    width: 80px;
+   
+}
+
+/* .sheet{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.mycard1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around
+;
+margin-top: 5rem;
+}
+
+.mycard input{
+    margin: 12rem;
+}
+
+.formgroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
